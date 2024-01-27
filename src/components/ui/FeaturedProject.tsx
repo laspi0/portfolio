@@ -86,7 +86,7 @@ const FeaturedProject = ({
           >
             <p className="text-dark-1">{description}</p>
             <div className="text-xs hidden lg:block capitalize font-mono text-accent my-3 lg:my-2 lg:mt-3">
-              tasks / achievements
+              Tâches / Réalisations{' '}
             </div>
             <div className="text-base hidden lg:block lg:text-sm">{tasks}</div>
           </div>

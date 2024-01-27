@@ -22,7 +22,7 @@ const Contact = () => {
       ))}
 
       <Button type="link" size="lg" href={link} center className="mt-12">
-        Say Hello
+        Envoyez un mail
       </Button>
     </Wrapper>
   );

@@ -2,27 +2,27 @@ import { FeaturedProjectsSectionType } from '@/lib/types/sections';
 import { getId } from '@/lib/utils/helper';
 
 const featuredProjectsSection: FeaturedProjectsSectionType = {
-  title: "projects i've worked on",
+  title: "Projets Académiques réalisés",
   projects: [
     {
       id: getId(),
-      name: 'Integra',
-      description: 'An AI-Powered Leads Generation Platform.',
+      name: 'Systeme de reservation TER Dakar',
+      description: 'Une plateforme de reservation de billets.',
       tasks:
-        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the website, and integrated Stripe payments with secure authentication.',
-      url: 'https://www.integraleads.xyz/',
-      img: 'https://user-images.githubusercontent.com/68834718/279476369-2f69466a-71db-4da0-9afd-04f8f0efb621.jpeg',
-      tags: ['AI/ML', 'NextJs', 'TypeScript', 'TailwindCSS', 'Express'],
+        'Développement d\'une application Laravel de réservation de billets avec authentification sécurisée et scanner de billets par codes QR. Garantie de fiabilité et de performance pour une expérience utilisateur optimale.',
+      url: 'https://github.com/laspi0/ter.git',
+      img: '/ter.png',
+      tags: ['Lavavel', 'Ajax', 'Mysql', 'React',],
     },
     {
       id: getId(),
-      name: 'uProposalGpt',
-      description: 'The AI-powered platform that simplifies proposal creation.',
+      name: 'Clone de Wave ',
+      description: 'Reprise total de l\'application de Wave digital finance.',
       tasks:
-        'Implemented NextAuth authentication, integrated Mailchimp for newsletter subscription, developed a custom hook for dark mode, created UI components in the Dashboard, and used Notion as a CMS for the blogs page.',
-      url: 'https://www.uproposalgpt.com/',
-      img: 'https://user-images.githubusercontent.com/68834718/279469731-be163482-20cd-4cb3-8bcb-bbb2c1a345b8.png',
-      tags: ['Open AI', 'NextJs', 'TypeScript', 'TailwindCSS', 'Prisma'],
+      'Développement d\'une application Flutter, clonant Wave Digital Finance, avec intégration d\'un système de carte Master virtuel. Spécialisé dans la conception d\'une expérience utilisateur avancée et sécurisée.',
+      url: 'https://github.com/laspi0/wave.git',
+      img: '/wave.png',
+      tags: ['Flutter', 'Dart',],
     },
   ],
 };
